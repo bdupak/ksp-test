@@ -1,13 +1,14 @@
 package com.lp.ittp.ist;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+import java.util.ArrayList;
+import java.util.List;
+
+public class App {
+  public static void main(String[] args) {
+    List<Integer> list = new ArrayList<>();
+    for(int i = 0; i < 10; i++) {
+      list.add(i);
     }
+    System.out.println("Hello World!");
+  }
 }
