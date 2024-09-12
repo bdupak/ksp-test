@@ -15,6 +15,13 @@ public class App {
     for (int i = 0; i < 10; i++) {
       list.add(i);
     }
+
+    List<Integer> listFromBranchDevelop = new ArrayList<>();
+    for (int i = 0; i < 10; i++) {
+      listFromBranchDevelop.add(i);
+    }
+    System.out.println(listFromBranchDevelop);
+
     System.out.println("Hello World!");
   }
 }
