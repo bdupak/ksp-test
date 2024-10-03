@@ -15,6 +15,10 @@ public class App {
     for (int i = 0; i < 10; i++) {
       list.add(i);
     }
+    List<String> listString = new ArrayList<>();
+    for (int i = 0; i < 10; i++) {
+      listString.add(String.valueOf(i));
+    }
     System.out.println("Hello World!");
   }
 }
