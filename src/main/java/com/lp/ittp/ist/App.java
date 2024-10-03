@@ -19,6 +19,10 @@ public class App {
     for (char i = 0; i < 10; i++) {
       listChar.add(i);
     }
+    List<String> listString = new ArrayList<>();
+    for (int i = 0; i < 10; i++) {
+      listString.add(String.valueOf(i));
+    }
     System.out.println("Hello World!");
   }
 }
