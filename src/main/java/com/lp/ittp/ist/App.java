@@ -5,6 +5,7 @@ import java.util.List;
 
 public class App {
   public static void main(String[] args) {
+    System.out.println("In this method we have done small logic");
     mainLogic();
   }
 
@@ -27,6 +28,7 @@ public class App {
     for (int i = 0; i < 10; i++) {
       listString.add(String.valueOf(i));
     }
+    System.out.println(listString);
     System.out.println("Hello World!");
   }
 }
