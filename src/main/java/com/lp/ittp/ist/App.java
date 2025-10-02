@@ -23,6 +23,7 @@ public class App {
     for (int i = 0; i < 10; i++) {
       listString.add(String.valueOf(i));
     }
+    System.out.println(listString);
     System.out.println("Hello World!");
   }
 }
